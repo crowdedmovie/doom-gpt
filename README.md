@@ -6,7 +6,7 @@ This is **not a clone** and ChatGPT didn't recreate the DOOM engine. The fun par
 
 ## 1/4 
 
-You can also use the included `.html` file for a quick test: give it to GPT in a regular chat and ask it to run the file.
+You can use the included `.html` file for a quick test: give it to GPT in a regular chat and ask it to run the file.
 You will still need to upload the .wad and 2 .wasm file tough.
 
 
