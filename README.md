@@ -4,7 +4,13 @@ I got the **real DOOM (1993)** running directly inside a regular ChatGPT convers
 
 This is **not a clone** and ChatGPT didn't recreate the DOOM engine. The fun part was getting ChatGPT to build an interactive JavaScript interface around an existing open-source WebAssembly port: [wasmdoom](https://github.com/theMagicalKarp/wasmdoom).
 
-## 1/3 — The prompt
+## 1/4 
+
+You can also use the included `.html` file for a quick test: give it to GPT in a regular chat and ask it to run the file.
+You will still need to upload the .wad and 2 .wasm file tough.
+
+
+## 2/4 — The prompt
 
 You'll need to download the three files listed in **Credits and downloads** below before launching the game. Then paste this prompt into a ChatGPT conversation that supports executable HTML/JavaScript components:
 
@@ -133,7 +139,7 @@ You'll need to download the three files listed in **Credits and downloads** belo
 
 Once the component appears, select the three files and click **Launch DOOM**. Click the game screen to focus the keyboard.
 
-## 2/3 — Quick technical stack
+## 3/4 — Quick technical stack
 
 - **Game engine:** id Software's original DOOM C code, adapted by **theMagicalKarp** into a standalone WebAssembly module (`wasmdoom.wasm`) with no WASI imports.
 - **Game assets:** the original `doom1.wad` shareware file (levels, textures, sprites, sounds, music data).
@@ -145,7 +151,7 @@ Once the component appears, select the three files and click **Launch DOOM**. Cl
 
 The three files are selected locally by the user; the game does not need a game server once the files are loaded.
 
-## 3/3 — Credits and downloads
+## 4/4 — Credits and downloads
 
 ### Credits
 
